@@ -1,0 +1,82 @@
+.style__container{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style__box{
+    background: #F0F0F0;
+    width: 1240px;
+    height: 866px;
+    border-radius: 40px;
+    padding:0 60px;
+}
+
+.box__title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.box__images1{
+    width: 1110px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    margin-top: 78px;
+}
+
+.box__images2{
+    width: 1110px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.box__casual{
+    position: relative;
+    width: 407px;
+    height: 289px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box__formal{
+    position: relative;
+    width: 684px;
+    height: 289px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box__party{
+    position: relative;
+    width: 642px;
+    height: 289px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box__gym{
+    position: relative;
+    background: #ffffff;
+    width: 450px;
+    height: 289px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box__text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 25px;
+}
